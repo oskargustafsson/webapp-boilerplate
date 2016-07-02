@@ -1,0 +1,21 @@
+{
+  "name": "webapp",
+  "version": "0.0.0",
+  "authors": [
+    "Oskar Gustafsson <oskargustafsson88@gmail.com>"
+  ],
+  "license": "proprietary",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "*",
+    "requirejs-text": "*",
+    "bff-lib": "*",
+    "doT": "*"
+  }
+}
