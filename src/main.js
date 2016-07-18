@@ -5,7 +5,8 @@ require.config({
 	},
 	packages: [ {
 		name: 'bff',
-		location: '../bower_components/bff-lib/dist/dev',
+		// Running in a non-browser env. means we are building for production
+		location: '../bower_components/bff-lib/dist/' + (typeof window === 'undefined' ? 'prod' : 'dev'),
 	}, ],
 });
 

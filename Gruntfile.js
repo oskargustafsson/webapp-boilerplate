@@ -45,7 +45,6 @@ module.exports = function (grunt) {
 				files: 'src/**/*.js',
 				tasks: [ 'requirejs' ],
 				options: {
-					spawn: false,
 					livereload: true,
 				},
 			},
@@ -53,7 +52,6 @@ module.exports = function (grunt) {
 				files: 'src/**/*.scss',
 				tasks: [ 'sass' ],
 				options: {
-					spawn: false,
 					livereload: true,
 				},
 			},
