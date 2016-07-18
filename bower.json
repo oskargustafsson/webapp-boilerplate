@@ -16,6 +16,7 @@
     "requirejs": "*",
     "requirejs-text": "*",
     "bff-lib": "*",
-    "doT": "*"
+    "doT": "*",
+    "normalize-css": "*"
   }
 }
