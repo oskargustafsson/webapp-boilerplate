@@ -46,6 +46,7 @@ module.exports = function (grunt) {
 				tasks: [ 'requirejs' ],
 				options: {
 					spawn: false,
+					livereload: true,
 				},
 			},
 			sass: {
@@ -53,6 +54,7 @@ module.exports = function (grunt) {
 				tasks: [ 'sass' ],
 				options: {
 					spawn: false,
+					livereload: true,
 				},
 			},
 		},
