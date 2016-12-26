@@ -18,5 +18,6 @@
     "bff-lib": "*",
     "doT": "*",
     "normalize-css": "*"
-  }
+  },
+  "devDependencies": {}
 }

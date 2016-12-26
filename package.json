@@ -5,11 +5,11 @@
   "license": "proprietary",
   "description": "",
   "devDependencies": {
-    "grunt": "*",
+    "grunt": "^1.0.1",
     "grunt-contrib-jshint": "*",
+    "grunt-contrib-requirejs": "*",
     "grunt-contrib-uglify": "*",
     "grunt-contrib-watch": "*",
-    "grunt-contrib-requirejs": "*",
     "grunt-jscs": "*",
     "grunt-jsdoc": "*",
     "grunt-sass": "*",

@@ -55,6 +55,12 @@ module.exports = function (grunt) {
 					livereload: true,
 				},
 			},
+			livereload: {
+				files: [ 'dist/**/*', 'index.html', 'index-dev.html' ],
+				options: {
+					livereload: true
+				},
+			},
 		},
 
 	});
